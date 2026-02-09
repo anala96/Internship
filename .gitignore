@@ -1,0 +1,49 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# --------------------
+# Environments
+# --------------------
+.env
+.venv
+venv/
+env/
+conda-env/
+*.conda
+environment.lock.yml
+
+# --------------------
+# Data (IMPORTANT)
+# --------------------
+data_raw/
+data_private/
+*.csv
+*.xlsx
+*.parquet
+*.sav
+*.dta
+
+# --------------------
+# Outputs
+# --------------------
+outputs/
+results/
+figures/
+plots/
+
+# --------------------
+# OS / Editor junk
+# --------------------
+.DS_Store
+.vscode/
+.idea/
+
+# --------------------
+# Logs
+# --------------------
+*.log
