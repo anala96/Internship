@@ -1,49 +1,11 @@
-# --------------------
-# Python
-# --------------------
-__pycache__/
-*.py[cod]
-*.pyo
-.ipynb_checkpoints/
+# Ignore everything by default
+*
 
-# --------------------
-# Environments
-# --------------------
-.env
-.venv
-venv/
-env/
-conda-env/
-*.conda
-environment.lock.yml
+# Allow directories (needed so Git can descend)
+!*/
 
-# --------------------
-# Data (IMPORTANT)
-# --------------------
-data_raw/
-data_private/
-*.csv
-*.xlsx
-*.parquet
-*.sav
-*.dta
+# Allow notebooks
+!*.ipynb
 
-# --------------------
-# Outputs
-# --------------------
-outputs/
-results/
-figures/
-plots/
-
-# --------------------
-# OS / Editor junk
-# --------------------
-.DS_Store
-.vscode/
-.idea/
-
-# --------------------
-# Logs
-# --------------------
-*.log
+# Allow this file itself
+!.gitignore
